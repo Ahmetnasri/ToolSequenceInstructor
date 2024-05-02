@@ -1,0 +1,16 @@
+names:
+- pliers
+- screwdriver
+- drill
+- hammer
+- screw
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: yolo-6m9xp
+  url: https://universe.roboflow.com/new-workspace-iogsf/yolo-6m9xp/dataset/8
+  version: 8
+  workspace: new-workspace-iogsf
+test: /media/pixo/2a3e92d6-7b69-4ddc-afca-9d6cd94881c0/yolov9/data_5_class/images/test
+train: /media/pixo/2a3e92d6-7b69-4ddc-afca-9d6cd94881c0/yolov9/data_5_class/images/train 
+val: /media/pixo/2a3e92d6-7b69-4ddc-afca-9d6cd94881c0/yolov9/data_5_class/images/valid 
