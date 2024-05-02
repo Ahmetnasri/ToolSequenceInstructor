@@ -11,3 +11,5 @@ Here is the output:
 
 ![ezgif-4-fca1389192](https://github.com/Ahmetnasri/ToolSequenceInstructor/assets/63724301/bca4ef68-7304-45f6-83b3-7a7e2e850223)
 
+## Installation
+For the installation, follow the instruction in the [YOLOV9](https://github.com/WongKinYiu/yolov9) repository
