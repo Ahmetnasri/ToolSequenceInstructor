@@ -13,3 +13,12 @@ Here is the output:
 
 ## Installation
 For the installation, follow the instruction in the [YOLOV9](https://github.com/WongKinYiu/yolov9) repository
+
+## Inference
+You can change the instruction of the required sequence by editing the file `instruction.yaml`, in the example video the sequence was: screwdriver - plier - screwdriver - hammer
+
+``` shell
+# inference converted yolov9 models
+python ToolSequenceInstructor.py --source 6.mp4 --img 640 --device 0 --weights best.pt --xmin 0 --xmax 1 --ymin 0.33 --ymax 0.75 --instruction instruction.yaml
+```
+Where the parameters `xmin` `xmax` `ymin` `xmax` refer to the region if intreset
